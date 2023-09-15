@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
 theme: ThemeData().copyWith(
-  iconTheme: IconThemeData(size: 40)
+  iconTheme: IconThemeData(size: 40, color: Colors.white)
 ),
       home: MainScreen(),
     );
